@@ -1,0 +1,362 @@
+[
+   {
+      "name": "ignis",
+      "components": [
+         "",
+         ""
+      ],
+      "combos": [
+         {
+            "reactant": "aer",
+            "product": "lux"
+         },
+         {
+            "reactant": "ignis",
+            "product": ""
+         },
+         {
+            "reactant": "ignis",
+            "product": ""
+         },
+         {
+            "reactant": "lux",
+            "product": ""
+         },
+         {
+            "reactant": "aqua",
+            "product": ""
+         },
+         {
+            "reactant": "ordo",
+            "product": "potentia"
+         },
+         {
+            "reactant": "terra",
+            "product": ""
+         },
+         {
+            "reactant": "perditio",
+            "product": "gelum"
+         },
+         {
+            "reactant": "potentia",
+            "product": ""
+         },
+         {
+            "reactant": "gelum",
+            "product": ""
+         }
+      ],
+      "tier": 0
+   },
+   {
+      "name": "lux",
+      "components": [
+         "aer",
+         "ignis"
+      ],
+      "combos": [
+         {
+            "reactant": "aer",
+            "product": ""
+         }
+      ],
+      "tier": 1
+   },
+   {
+      "name": "aer",
+      "components": [
+         "",
+         ""
+      ],
+      "combos": [
+         {
+            "reactant": "ordo",
+            "product": "motus"
+         },
+         {
+            "reactant": "ignis",
+            "product": "lux"
+         },
+         {
+            "reactant": "lux",
+            "product": ""
+         },
+         {
+            "reactant": "aer",
+            "product": ""
+         },
+         {
+            "reactant": "aer",
+            "product": ""
+         },
+         {
+            "reactant": "aqua",
+            "product": "tempestas"
+         },
+         {
+            "reactant": "terra",
+            "product": ""
+         },
+         {
+            "reactant": "perditio",
+            "product": "vacuos"
+         },
+         {
+            "reactant": "potentia",
+            "product": ""
+         },
+         {
+            "reactant": "gelum",
+            "product": ""
+         },
+         {
+            "reactant": "vitreus",
+            "product": ""
+         },
+         {
+            "reactant": "permutatio",
+            "product": ""
+         },
+         {
+            "reactant": "tempestas",
+            "product": ""
+         },
+         {
+            "reactant": "vacuos",
+            "product": ""
+         }
+      ],
+      "tier": 0
+   },
+   {
+      "name": "aqua",
+      "components": [
+         "",
+         ""
+      ],
+      "combos": [
+         {
+            "reactant": "ignis",
+            "product": ""
+         },
+         {
+            "reactant": "ordo",
+            "product": ""
+         },
+         {
+            "reactant": "aer",
+            "product": "tempestas"
+         }
+      ],
+      "tier": 0
+   },
+   {
+      "name": "ordo",
+      "components": [
+         "",
+         ""
+      ],
+      "combos": [
+         {
+            "reactant": "ignis",
+            "product": "potentia"
+         },
+         {
+            "reactant": "lux",
+            "product": ""
+         },
+         {
+            "reactant": "aer",
+            "product": "motus"
+         },
+         {
+            "reactant": "aqua",
+            "product": ""
+         },
+         {
+            "reactant": "ordo",
+            "product": ""
+         },
+         {
+            "reactant": "ordo",
+            "product": ""
+         },
+         {
+            "reactant": "terra",
+            "product": "vitreus"
+         },
+         {
+            "reactant": "perditio",
+            "product": "permutatio"
+         },
+         {
+            "reactant": "potentia",
+            "product": ""
+         },
+         {
+            "reactant": "gelum",
+            "product": ""
+         }
+      ],
+      "tier": 0
+   },
+   {
+      "name": "terra",
+      "components": [
+         "",
+         ""
+      ],
+      "combos": [
+         {
+            "reactant": "ignis",
+            "product": ""
+         },
+         {
+            "reactant": "ordo",
+            "product": "vitreus"
+         },
+         {
+            "reactant": "aer",
+            "product": ""
+         }
+      ],
+      "tier": 0
+   },
+   {
+      "name": "perditio",
+      "components": [
+         "",
+         ""
+      ],
+      "combos": [
+         {
+            "reactant": "ignis",
+            "product": "gelum"
+         },
+         {
+            "reactant": "ordo",
+            "product": "permutatio"
+         },
+         {
+            "reactant": "aer",
+            "product": "vacuos"
+         }
+      ],
+      "tier": 0
+   },
+   {
+      "name": "potentia",
+      "components": [
+         "ignis",
+         "ordo"
+      ],
+      "combos": [
+         {
+            "reactant": "ignis",
+            "product": ""
+         },
+         {
+            "reactant": "ordo",
+            "product": ""
+         },
+         {
+            "reactant": "aer",
+            "product": ""
+         }
+      ],
+      "tier": 1
+   },
+   {
+      "name": "gelum",
+      "components": [
+         "ignis",
+         "perditio"
+      ],
+      "combos": [
+         {
+            "reactant": "ignis",
+            "product": ""
+         },
+         {
+            "reactant": "ordo",
+            "product": ""
+         },
+         {
+            "reactant": "aer",
+            "product": ""
+         }
+      ],
+      "tier": 1
+   },
+   {
+      "name": "motus",
+      "components": [
+         "ordo",
+         "aer"
+      ],
+      "combos": [
+         {
+            "reactant": "aer",
+            "product": ""
+         }
+      ],
+      "tier": 1
+   },
+   {
+      "name": "vitreus",
+      "components": [
+         "ordo",
+         "terra"
+      ],
+      "combos": [
+         {
+            "reactant": "aer",
+            "product": ""
+         }
+      ],
+      "tier": 1
+   },
+   {
+      "name": "permutatio",
+      "components": [
+         "ordo",
+         "perditio"
+      ],
+      "combos": [
+         {
+            "reactant": "aer",
+            "product": ""
+         }
+      ],
+      "tier": 1
+   },
+   {
+      "name": "tempestas",
+      "components": [
+         "aer",
+         "aqua"
+      ],
+      "combos": [
+         {
+            "reactant": "aer",
+            "product": ""
+         }
+      ],
+      "tier": 1
+   },
+   {
+      "name": "vacuos",
+      "components": [
+         "aer",
+         "perditio"
+      ],
+      "combos": [
+         {
+            "reactant": "aer",
+            "product": ""
+         }
+      ],
+      "tier": 1
+   }
+]
